@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 namespace Project.ExternalCalls
 {
 
+    //External imports class
     public class ExternalMethods : IDisposable
     {
         private delegate int MyExternalMethod(Int32 handle);
